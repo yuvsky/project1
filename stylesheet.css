@@ -58,6 +58,14 @@ a {
   color: white;
 }
 
+.fas {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0px;
+  display: none !important;
+}
+
 .header-right-sns a {
   padding: 10px;
   font-size: 20px;
