@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+* { margin: 0; padding: 0;}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+
+.top-contents {
+  padding: 80px 0 180px 0;
+  background-image: url(file:///Users/yusukeikegaya/Documents/Dev/img/bg_main.png);
+  background-size: cover;
+}
+
+.logo {
+  width: 90px;
+  margin-top: 20px;
+  line-height: 110px
+}
+
+.header-left {
+  float: left;
+  margin-left: ;
+}
+
+.header-right {
+  float: right;
+  margin-right: 40px;
+}
+
+.header-right-sns {
+  float: right;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 110px;
+}
+
+.header-right-nav {
+  float: right;
+  line-height: 110px;
+  color: white;
+}
+
+.header-right-sns a {
+  padding: 10px;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+
+.header-right-nav a {
+  padding: 30px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.header-right-nav a:hover {
+  cursor: pointer;
+  color: #1CACF7;
+}
+
+.header-right-sns a:hover {
+  cursor: pointer;
+  color: #1CACF7;
+
+}
+
+.top-contents h2 {
+  margin-top: 340px;
+  color: white;
+}
+
+.top-message {
+  margin-top: 40px;
+  color: white;
+}
+
+.works {
+  color: black;
+  text-align: center;
+  background-color: #F5F0EC;
+  padding-bottom: 10%;
+
+}
+
+.works h1 {
+  padding-top: 90px;
+}
+
+.sub-title {
+  margin-bottom: 5%;
+  padding: 0 2%;
+  border-bottom: 1px solid #b3aeb5;
+  display: inline-block;
+
+}
+
+.single-results {
+  float: left;
+  width: 25%;
+}
+
+.results-pic {
+  margin: 1px 15px 10px 15px;
+  padding: 35% 0;
+  border: 1px solid #b3aeb5;
+}
+
+.text-results {
+  padding-bottom: 100px;
+}
+
+.seemore-btn {
+  background-color: #FFA4A4;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 6px #2F0900;
+}
+
+.seemore-btn:hover {
+  cursor: pointer;
+}
+
+.seemore-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+
+
+footer {
+  height: 200px;
+  background-color: #313F52;
+}
+
+.footer-logo-small {
+  width: 60px;
+  margin-top: 45px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo p {
+  margin-top: 70px;
+  font-size: 10px;
+  color: white;
+}
