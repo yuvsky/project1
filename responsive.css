@@ -1,11 +1,9 @@
+/*  タブレット向けcss   */
+
 @media all and (max-width: 1000px) {
 
   .header-right {
     display: none;
-  }
-
-  .top-contents {
-
   }
 
   .clear {
@@ -24,6 +22,10 @@
 
   .seemore-btn {
     padding: 3% 40%;
+  }
+
+  .fas {
+    display: block !important;
   }
 
 
@@ -54,8 +56,6 @@
   .text-results {
     padding-bottom: 50px;
   }
-
-
 
 
 }
