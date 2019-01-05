@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: lighter;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+* { margin: 0; padding: 0;}
+
+.container {
+  width: 1170px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+header {
+  height: 110px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 90px;
+  margin-top: 20px;
+  line-height: 100px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 40px;
+}
+
+.header-right-sns {
+  float: right;
+  color: white;
+  line-height: 110px;
+}
+
+.header-right-nav {
+  float: right;
+  line-height: 110px;
+  color: white;
+}
+
+.header-right-sns a {
+  padding: 10px;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+
+.header-right-nav a {
+  padding: 30px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.header-right-nav a:hover {
+  cursor: pointer;
+  color: #1CACF7;
+}
+
+.header-right-sns a:hover {
+  cursor: pointer;
+  color: #1CACF7;
+}
+
+
+
+
+
+.top-wrapper {
+  padding: 20px 450px;
+  background-color: #F5F0EC;
+}
+
+.header-title {
+  margin-top: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.input-wrapper {
+}
+
+.input-wrapper input {
+  border-bottom: 0.5px solid #b3aeb5;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.input-wrapper textarea {
+  border-bottom: 0.5px solid #b3aeb5;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
+  height: 100px;
+}
+
+
+.contact-submit {
+  margin-top: 50px;
+  background: #dee7ec;
+  color: #889eab;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 80px;
+  font-size: 18px;
+}
+
+.input-wrapper p {
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+footer {
+  height: 200px;
+  background-color: #313F52;
+}
+
+.footer-logo-small {
+  width: 50px;
+  margin-top: 45px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo p {
+  margin-top: 70px;
+  font-size: 10px;
+  color: white;
+}
