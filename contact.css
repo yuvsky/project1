@@ -16,7 +16,8 @@ a {
 * { margin: 0; padding: 0;}
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 25px;
   margin: 0 auto;
 }
@@ -25,6 +26,7 @@ header {
   height: 110px;
   width: 100%;
   margin-bottom: 20px;
+  color: black;
 }
 
 .logo {
@@ -76,19 +78,27 @@ header {
   color: #1CACF7;
 }
 
+.fas {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0px;
+  display: none !important;
+}
+
 
 
 
 
 .top-wrapper {
-  padding: 20px 450px;
+  padding: 5% 30%;
   background-color: #F5F0EC;
 }
 
 .header-title {
-  margin-top: 70px;
+  margin-top: 30px;
   padding-bottom: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
   text-align: center;
 }
