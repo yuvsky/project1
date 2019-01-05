@@ -1,0 +1,57 @@
+/*  タブレット向けcss   */
+
+@media all and (max-width: 1000px) {
+
+  .header-right {
+    display: none;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .top-wrapper {
+    padding: 5% 20%;
+  }
+
+
+  .fas {
+    display: block !important;
+  }
+
+}
+
+/* ここからスマホ向けcss */
+
+@media all and (max-width: 670px) {
+
+  .logo {
+    width: 60px;
+  }
+
+  .top-wrapper {
+    padding: 2% 10%;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .header-title h1 {
+    font-size: 24px;
+  }
+
+  .header-title p {
+    font-size: 12px;
+  }
+
+  .input-wrapper p {
+    font-size: 18px;
+  }
+
+
+
+
+
+
+}
