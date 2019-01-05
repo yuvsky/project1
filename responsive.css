@@ -1,0 +1,61 @@
+@media all and (max-width: 1000px) {
+
+  .header-right {
+    display: none;
+  }
+
+  .top-contents {
+
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .works {
+    padding-bottom: 120px;
+
+  }
+
+  .single-results {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .seemore-btn {
+    padding: 3% 40%;
+  }
+
+
+
+}
+
+/* ここからスマホ向けcss */
+
+@media all and (max-width: 670px) {
+
+  .single-results {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .seemore-btn {
+    padding: 4% 30%;
+  }
+
+  .results-pic {
+    margin: 1px 1px 10px 1px;
+  }
+
+  .sub-title {
+    margin-bottom: 20%;
+  }
+
+  .text-results {
+    padding-bottom: 50px;
+  }
+
+
+
+
+}
